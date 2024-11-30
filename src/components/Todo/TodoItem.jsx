@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useTodo } from "../../Context/TodoContext";
-import "../CssComponents/checkbox.css";
+import "../CssComponents/Checkbox.css";
 
 function TodoItem({ todoObj }) {
     const [isTodoEditable, setIsTodoEditable] = useState(false);
