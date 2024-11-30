@@ -1,0 +1,27 @@
+/* <button class="neon-glow-button">
+<i class="fas fa-lightbulb"></i> Neon Button
+</button> */
+.neon-glow-button {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  margin: 0;
+  align-items: center;
+  padding: 1px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  /* background: #282828; */
+  background: white;
+  border: none;
+  border-radius: 80px;
+  border: 2px solid white;
+  text-shadow: 0 0 10px #00eaff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.neon-glow-button:hover {
+  box-shadow: 0 0 30px #00eaff, 0 0 40px #00eaff, 0 0 50px #00eaff;
+}
