@@ -22,7 +22,7 @@ function ToggleButton() {
                 <input
                     id="check-5"
                     type="checkbox"
-                    checked={img === "/src/Images/blue.jpg"} // condition
+                    checked={img === "./src/Images/blue.jpg"} // condition
                     onChange={toggleTheme} // Call the passed `onClicked` prop here
                 />
                 <label htmlFor="check-5"></label>

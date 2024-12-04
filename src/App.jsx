@@ -4,7 +4,6 @@ import { TodoProvider } from './Context/TodoContext'
 import { TodoForm, TodoItem } from './components/Todo'
 import { DarkProvider } from "./Context/ThemeContext/Mode"
 
-
 //     todos: [
 //         {
 //             id: 1,
@@ -88,15 +87,15 @@ function App() {
 
 
   // Dark mode 
-  const [img, setImg] = useState("/src/Images/blue.jpg")
+  const [img, setImg] = useState("./src/Images/blue.jpg")
   const [themeMode, setThemeMode] = useState("light")
   const lightTheme = () => {
-    setImg("/src/Images/blue.jpg")
+    setImg("./src/Images/blue.jpg")
     setThemeMode("light")
 
   }
   const darkTheme = () => {
-    setImg("/src/Images/dark.png")
+    setImg("./src/Images/dark.png")
     setThemeMode("dark")
 
   }
